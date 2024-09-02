@@ -13,6 +13,8 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import List from './List';
 import { useNavigation } from '@react-navigation/native';
+import ProgressCardList from './Stack';
+
 
 
 
@@ -70,7 +72,7 @@ export default function HomeScreen() {
           
 
            
-            
+            <ProgressCardList></ProgressCardList>
 
              <List></List>
 

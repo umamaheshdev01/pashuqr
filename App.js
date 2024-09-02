@@ -31,11 +31,12 @@ export default function App() {
       <Stack.Navigator>
         {isAuthenticated ? (
           <>
-          <Stack.Screen name="Pasu" options={{ headerShown: false }} component={PashuDhanForm} /> 
+          
             <Stack.Screen name="Home"  options={{ headerShown: false }}>
               {() => <HomeScreen onLogout={handleLogout} />}
             </Stack.Screen>
             <Stack.Screen name="Qr" options={{ headerShown: false }} component={Qr} />
+            <Stack.Screen name="Pasu" options={{ headerShown: false }} component={PashuDhanForm} /> 
           </>
         ) : (
           <>
