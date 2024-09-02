@@ -14,7 +14,8 @@ import AntDesign from '@expo/vector-icons/AntDesign';
 import ProgressCard from './Card';
 import List from './List';
 import { useNavigation } from '@react-navigation/native';
-import CardContainer from './Satck';
+
+import Card from './Card';
 
 
 
@@ -74,14 +75,8 @@ export default function HomeScreen() {
 
           <View style={{marginBottom:5}}>
 
-            {/* <Carousel></Carousel> */}
-            
+            <Card></Card>
 
-            {/* <Carousel></Carousel> */}
-
-         <View style={{height : 100}}>
-         <CardContainer data={data}></CardContainer>
-         </View>
            
             
 

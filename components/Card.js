@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
-const ProgressCard = ({name,number}) => {
+const ProgressCard = () => {
   return (
     <View style={styles.cardContainer}>
       <Text style={styles.title}>पशुसवेक प्रगति कार्ड</Text>
