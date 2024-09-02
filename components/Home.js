@@ -11,11 +11,9 @@ import {
 import FeatherIcon from 'react-native-vector-icons/Feather';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import AntDesign from '@expo/vector-icons/AntDesign';
-import ProgressCard from './Card';
 import List from './List';
 import { useNavigation } from '@react-navigation/native';
 
-import Card from './Card';
 
 
 
@@ -24,13 +22,7 @@ import Card from './Card';
 export default function HomeScreen() {
 
 
-  const data = [{
-    image : require('../assets/brocow.png')
-  },{
-    image : require('../assets/brocow.png')
-  },{
-    image : require('../assets/brocow.png')
-  }]
+
 
   const nav = useNavigation()
 
@@ -75,7 +67,7 @@ export default function HomeScreen() {
 
           <View style={{marginBottom:5}}>
 
-            <Card></Card>
+          
 
            
             

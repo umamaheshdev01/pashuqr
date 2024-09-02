@@ -9,6 +9,7 @@ import Signup from './components/Signup';
 import Otp from './components/Otp';
 import HomeScreen from './components/Home';
 import Qr from './components/Qr';
+import PashuDhanForm from './components/Pasu';
 
 
 
@@ -30,6 +31,7 @@ export default function App() {
       <Stack.Navigator>
         {isAuthenticated ? (
           <>
+          <Stack.Screen name="Pasu" options={{ headerShown: false }} component={PashuDhanForm} /> 
             <Stack.Screen name="Home"  options={{ headerShown: false }}>
               {() => <HomeScreen onLogout={handleLogout} />}
             </Stack.Screen>
